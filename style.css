@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(96, 255, 96);
+    text-align: center;
+    font-family: Bungee, sans-serif;
+    color: yellow;
+    font-size: 30px;
+}
+
+informacao {
+    font-size: 20px;
+}
+
+button {
+    font-size: 25px;
+    font-family: Bungee, sans-serif;
+    background-color: yellow;
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    margin: 30px;
+    cursor: pointer;
+    border: 5px groove rgb(6, 189, 6);
+}
+
+button:hover {
+    background-color:rgb(6, 189, 6);
+    color: yellow;
+    transition: background-color 0.5s, color 0.5s, transform 0.5s ease;
+    transform: scale(1.05);
+    
+}
+
+button:not(:hover) {
+    background-color: yellow;
+    color: green;
+    transition: background-color 0.5s, color 0.5s, transform 0.5s ease;
+    transform: scale(1.05);
+}
